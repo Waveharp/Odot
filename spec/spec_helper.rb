@@ -19,6 +19,7 @@ ActiveRecord::Migration.check_pending! if defined?(ActiveRecord::Migration)
 
 RSpec.configure do |config|
   config.include TodoListHelpers, type: :feature
+  config.include RailsDomIdHelper, type: :feature
 
   # to remove deprecation errors when testing
   config.expose_current_running_example_as :example
