@@ -18,6 +18,7 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 ActiveRecord::Migration.check_pending! if defined?(ActiveRecord::Migration)
 
 RSpec.configure do |config|
+  config.include TodoListHelpers, type: :feature
 
   # to remove deprecation errors when testing
   config.expose_current_running_example_as :example
