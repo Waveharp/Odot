@@ -139,7 +139,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bcrypt
   bcrypt-ruby (~> 3.1.2)
   capybara (~> 2.1.0)
   coffee-rails (~> 4.0.0)

@@ -27,8 +27,8 @@ describe UsersController do
     "first_name" => "MyString",
     "last_name" => "LastName",
     "email" => "email@example.com",
-    "password" => "password1234",
-    "password_confirmation" => "password1234"
+    "password" => "password12345",
+    "password_confirmation" => "password12345"
     } }
 
   # This should return the minimal set of values that should be in the session
